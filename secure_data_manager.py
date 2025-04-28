@@ -63,6 +63,7 @@ def reset_attempts():
 def switch_screen(screen):
     st.session_state.current_screen = screen
 
+st.set_page_config(page_title="Secure Data Manager", page_icon="🔒")
 
 # App UI
 st.title("🔐 Secure Data Vault")
